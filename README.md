@@ -1,8 +1,6 @@
-# Automated Reasoning Challenge
+# ArcBench: Automated Reasoning Challenge for LLMs
 
-Evaluate language model answers on tricky reasoning questions.
-
----
+A benchmark for evaluating advanced reasoning in language models and multi-agent systems.
 
 ## Setup
 
@@ -25,8 +23,6 @@ Evaluate language model answers on tricky reasoning questions.
    EVAL_BASE_URL=xxx
    ```
 
----
-
 ## Running Experiments
 
 Run all experiments with:
@@ -40,8 +36,6 @@ python -B arcbench/main.py
 
 To try a different LLM for generation, edit the `LLM` in your `.env` and run again.  
 To change the grading rubric, change the `EVAL_LLM` variables.
-
----
 
 ## Notes
 
